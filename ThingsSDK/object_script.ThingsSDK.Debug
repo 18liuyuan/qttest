@@ -1,0 +1,17 @@
+INPUT(
+./debug\connection.o
+./debug\cwlib.o
+./debug\tenv.o
+./debug\texpr.o
+./debug\things.o
+./debug\tobject.o
+./debug\tparser.o
+./debug\tutils.o
+./debug\tvarex.o
+./debug\vsync.o
+./debug\base64.o
+./debug\conn_win_socket.o
+./debug\thingssdk.o
+./debug\thingsloopthread.o
+./debug\moc_thingsloopthread.o
+);

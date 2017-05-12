@@ -1,0 +1,17 @@
+INPUT(
+./release\connection.o
+./release\cwlib.o
+./release\tenv.o
+./release\texpr.o
+./release\things.o
+./release\tobject.o
+./release\tparser.o
+./release\tutils.o
+./release\tvarex.o
+./release\vsync.o
+./release\base64.o
+./release\conn_win_socket.o
+./release\thingssdk.o
+./release\thingsloopthread.o
+./release\moc_thingsloopthread.o
+);

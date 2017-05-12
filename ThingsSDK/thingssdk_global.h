@@ -1,0 +1,12 @@
+#ifndef THINGSSDK_GLOBAL_H
+#define THINGSSDK_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(THINGSSDK_LIBRARY)
+#  define THINGSSDKSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define THINGSSDKSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // THINGSSDK_GLOBAL_H
